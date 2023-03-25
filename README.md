@@ -1,2 +1,4 @@
-# KNN_fault
- KNeighborsClassifier for fault detection
+# KNeighborsClassifier for fault detection
+In the context of fault detection, KNeighborsClassifier is used to classify whether a particular observation or data point represents a fault or not. This is done by training the algorithm on a labeled dataset, where each observation is labeled as either a fault or not a fault. The KNeighborsClassifier algorithm is then be used to predict the label of new observations, based on their proximity to the labeled data points in the training set.
+
+There are several considerations to keep in mind when using KNeighborsClassifier for fault detection. One important consideration is the choice of K, the number of neighbors to consider when classifying a new observation. A larger value of K can help to smooth out noise in the data, but may also result in misclassifications if the data is highly variable. Another consideration is the choice of distance metric to use when measuring the similarity between data points. The choice of distance metric can have a significant impact on the performance of the algorithm, depending on the characteristics of the data.
